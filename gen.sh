@@ -1,9 +1,9 @@
 curl -X POST \
   https://generator3.swagger.io/api/generate \
-  --output api.zip \
+  --output temp/api.zip \
   -H 'content-type: application/json' \
   -d '{
-  "specURL" : "https://mczbase.mcz.harvard.edu/aphia.swagger.json",
+  "specURL" : "https://raw.githubusercontent.com/FilteredPush/gen_worms_client/master/aphia.swagger.json",
   "lang" : "java",
   "type" : "CLIENT",
   "options" : {
