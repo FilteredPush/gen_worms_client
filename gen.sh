@@ -1,3 +1,4 @@
+mkdir temp
 curl -X POST \
   https://generator3.swagger.io/api/generate \
   --output temp/api.zip \
