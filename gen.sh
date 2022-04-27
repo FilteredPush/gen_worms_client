@@ -8,7 +8,7 @@ curl -X POST \
   "lang" : "java",
   "type" : "CLIENT",
   "options" : {
-  "library" : "jersey2",
+  "library" : "okhttp-gson",
   "modelPackage": "org.marinespecies.aphia.v1_0.model",
   "apiPackage": "org.marinespecies.aphia.v1_0.api",
   "invokerPackage": "org.marinespecies.aphia.v1_0.handler",
