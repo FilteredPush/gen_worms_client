@@ -283,7 +283,7 @@
 						"content" : { 
 							"text/plain": { 
                         		"schema": {
-                           			 "type": "integer"
+                           			 "type": "string"
 								}
 							}
 						}
